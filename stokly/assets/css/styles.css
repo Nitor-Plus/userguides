@@ -1263,8 +1263,9 @@ select {
 }
 
 .landing-page .cta-container {
-  margin-top: 30px;
+  margin-top: 10px;
 }
+
 
 .landing-page .social-container .twitter-tweet {
   display: inline-block;
@@ -1276,6 +1277,11 @@ select {
   display: inline-block;
   position: relative;
   top: 3px;
+}
+
+body > div.page-wrapper > header > div > div.social-container > div
+{
+  margin-top: 30px;
 }
 
 .cards-section {
@@ -1436,6 +1442,8 @@ select {
 .cards-section .item-purple .icon {
   color: #8A40A7;
 }
+
+
 
 @media (max-width: 575.98px) {
   .main-search-box {
